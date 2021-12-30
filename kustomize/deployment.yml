@@ -18,7 +18,7 @@ spec:
       containers:
       - name: 2048-app
         # Replace with your docker registry info
-        image: https://hub.docker.com/jelockro/2048-app
+        image: https://hub.docker.com/jelockro/2048-app:1.0.0
         ports:
         - name: http
           containerPort: 8000
