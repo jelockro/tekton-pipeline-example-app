@@ -18,7 +18,7 @@ spec:
       containers:
       - name: 2048-app
         # Replace with your docker registry info
-        image: 2048-app
+        image: https://index.docker.io/v1/
         ports:
         - name: http
           containerPort: 8000
